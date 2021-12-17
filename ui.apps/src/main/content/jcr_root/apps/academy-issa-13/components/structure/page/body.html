@@ -1,0 +1,13 @@
+<h1 data-sly-use.model="">Issa Page Day 13 Assignment</h1>
+<h1 data-sly-use.model="it.codeland.academy.core.models.Day13">
+  Description: ${model.description}
+</h1>
+
+<div
+  data-sly-resource="${'slider' @resourceType='/apps/academy-issa-13/components/structure/slider'}"
+></div>
+
+<sly
+  data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+  data-sly-call="${clientlib.all @ categories=['day-12.base']}"
+></sly>
